@@ -1,30 +1,40 @@
 {
   "expo": {
-    "name": "cryptography-si-mobile-app-isamm",
+    "name": "Crypto ISAMM",
+    "description": "a mobile app to demonstrate basic cryptography concepts 📍 ..",
     "slug": "cryptography-si-mobile-app-isamm",
     "privacy": "public",
     "sdkVersion": "36.0.0",
+    "version": "1.0.0",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "orientation": "portrait",
+    "githubUrl": "https://github.com/3imed-jaberi/cryptography-si-mobile-app-isamm",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1e90ff",
+      "image": "./src/assets/img/splash.png",
+      "resizeMode": "cover"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
+    "android": {
+      "package": "com.3imed-jaberi.crypto-isamm",
+      "versionCode": 1,
+      "icon": "./src/assets/img/android/icon-512.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/img/android/icon-1024.png",
+        "backgroundColor": "#f3f3f3"
+      },
+      "permissions": []
+    },
+    "ios": {
+      "icon": "./src/assets/img/ios/icon.png",
+      "supportsTablet": true,
+      "isTabletOnly": false
     },
     "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+      "./src/assets/**/*"
+    ]
   }
 }
