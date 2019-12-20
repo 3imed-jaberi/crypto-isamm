@@ -19,7 +19,7 @@
       "resizeMode": "cover"
     },
     "android": {
-      "package": "com.3imed-jaberi.crypto-isamm",
+      "package": "tn.imed_jaberi.crypto_isamm",
       "versionCode": 1,
       "icon": "./src/assets/img/android/icon-512.png",
       "adaptiveIcon": {
