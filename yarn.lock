@@ -1875,10 +1875,10 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-cryptography-isamm@^1.0.0-rc:
-  version "1.0.0-rc"
-  resolved "https://registry.yarnpkg.com/cryptography-isamm/-/cryptography-isamm-1.0.0-rc.tgz#6b1a834a8f24b93ec871d8002408ab4ab14a6af1"
-  integrity sha512-Y/1IQI+EPy/9Ii5bzKudlv3FK3Nl1bw7BSVM3x3x0d/CtHnjo2eIIyjBYdmMbAf1Gn+Cp9drazjraGUvW2cRdw==
+cryptography-isamm@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/cryptography-isamm/-/cryptography-isamm-1.0.0.tgz#49c11428beb7ed1b8afeeaa28ebb2210e76f05f1"
+  integrity sha512-gw3PiYNpZ3p2jO8XS2lUBx9WzIKwV1QsKEODeEvecre1Z0G7RyGgExiRhycf48gaj1BnnWpALy1Z/hJkdJ2ZnQ==
 
 css-in-js-utils@^2.0.0:
   version "2.0.1"
