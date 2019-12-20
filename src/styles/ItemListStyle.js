@@ -4,8 +4,8 @@ import { StyleSheet } from 'react-native';
 
 const ItemListStyle = StyleSheet.create({
   TitleContainer: { 
-    marginTop: 15,
-    marginBottom: 10 
+    marginTop: 30,
+    marginBottom: 25 
   },
   Title: { 
     paddingTop: 12, 
