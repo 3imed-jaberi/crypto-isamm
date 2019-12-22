@@ -5,7 +5,9 @@ import { StyleSheet } from 'react-native';
 const ItemListStyle = StyleSheet.create({
   TitleContainer: { 
     marginTop: 30,
-    marginBottom: 25 
+    marginBottom: 25,
+    opacity: 0.85,
+    backgroundColor:'#0f0f0f'
   },
   Title: { 
     paddingTop: 12, 
@@ -13,10 +15,9 @@ const ItemListStyle = StyleSheet.create({
     paddingLeft: 25, 
     paddingRight: 25, 
     textAlign: 'center', 
-    fontSize: 21, 
+    fontSize: 18, 
     color : 'white', 
-    backgroundColor:'black',
-    fontFamily: 'ample-soft-pro'
+    fontFamily: 'ample-soft-pro',
   },
   ListContainer: {
     flexDirection: 'column'

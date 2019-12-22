@@ -34,7 +34,7 @@ const HomeOptionsList = [
   }
 ];
 
-const HomeTitle = 'WELCOME TO OUR APP § V 1.0.0';
+const HomeTitle = 'WELCOME TO `CRYPTO ISAMM` 👋🏻';
 
 const __ENCRYPT__ = "ENCRYPT";
 
