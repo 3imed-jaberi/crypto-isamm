@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import { BtnItem } from '../private/BtnItem';
 import { ItemListStyle } from '../../styles';
 import { Title } from './Title';
