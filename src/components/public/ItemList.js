@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { View, Text } from 'react-native';
 import { BtnItem } from '../private/BtnItem';
 import { ItemListStyle } from '../../styles';
+import { Title } from './Title';
 
 
 
@@ -13,9 +14,7 @@ const ItemList = ({ navigation, title, ContentData }) => {
 
   return (
     <Fragment>
-      <View style={ItemListStyle.TitleContainer}>
-        <Text style={ItemListStyle.Title}> {title} </Text>
-      </View>
+      <Title title={title} />
       <View style={ItemListStyle.ListContainer}>
         { ContentData.map( ({ Direction, Params, TextContent }, index) => <BtnItem key={index} onClick={() => handleClick(Direction, Params)} text={TextContent} />) }
       </View>  

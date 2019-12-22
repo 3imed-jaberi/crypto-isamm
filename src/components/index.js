@@ -6,3 +6,4 @@ export * from './public/Header';
 export * from './public/Input';
 export * from './public/Select';
 export * from './public/ResultText';
+export * from './public/Title';

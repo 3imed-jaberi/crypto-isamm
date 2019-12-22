@@ -8,3 +8,4 @@ export * from './ItemListStyle';
 export * from './ResultTextStyle';
 export * from './ContainerStyle';
 export * from './CipherStyle';
+export * from './TitleStyle';
