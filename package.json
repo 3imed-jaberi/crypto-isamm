@@ -1,6 +1,6 @@
 {
   "name": "cryptography-si-mobile-app-isamm",
-  "version": "1.0.0-rc",
+  "version": "1.0.0",
   "description": "a mobile app to demonstrate basic cryptography concepts 📍 ..",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
