@@ -4,8 +4,8 @@ import { TitleStyle } from '../../styles';
 
 
 
-const Title = ({ContainerStyle, ContentStyle, title}) => (<View style={ ContainerStyle || TitleStyle.TitleContainer}>
-    <Text style={ContentStyle || TitleStyle.Title}> {title || 'not-found'} </Text>
+const Title = ({ContainerStyle, ContentStyle, title}) => (<View style={[ TitleStyle.TitleContainer, ContainerStyle ]}>
+  <Text style={[ TitleStyle.Title, ContentStyle ]}> {title || 'NOT-FOUND'} </Text>
 </View>);
 
 

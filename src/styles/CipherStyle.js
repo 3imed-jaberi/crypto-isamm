@@ -31,6 +31,14 @@ const CipherStyle = StyleSheet.create({
     fontSize: 20,
     fontFamily: 'ample-soft-pro',
     padding: 15
+  },
+  TitleContainer: { 
+    backgroundColor: '#dddddd', 
+    marginTop: 15, 
+    marginBottom: -7 
+  },
+  TitleStyle: { 
+    color: '#ce2058'
   }
 });
 

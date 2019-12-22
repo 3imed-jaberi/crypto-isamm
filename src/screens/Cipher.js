@@ -1,8 +1,8 @@
 import React, { useState, Fragment } from 'react';
-import { Text, ToastAndroid } from 'react-native';
+import { ToastAndroid } from 'react-native';
 import Container from './container';
 import Loader from "react-native-modal-loader";
-import { Input, Button, Select, ResultText } from '../components';
+import { Input, Button, Select, ResultText, Title } from '../components';
 import { 
   PlaceholderContent,
   WarnValidation,
@@ -114,7 +114,11 @@ const Cipher = ({ navigation }) => {
   return (
     <Container>
 
-      <Text style={CipherStyle.CipherTypeTitle}> {`${cipherType} Cipher !`} </Text>
+      <Title 
+        ContainerStyle={CipherStyle.TitleContainer} 
+        ContentStyle={CipherStyle.TitleStyle} 
+        title={`< ${cipherType} Cipher 🗝 />`.toUpperCase()} 
+      />
 
       <Select 
         selectedValue={yourNeed}
