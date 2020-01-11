@@ -1,12 +1,12 @@
 {
-  "name": "cryptography-si-mobile-app-isamm",
+  "name": "crypto-isamm",
   "version": "1.0.0",
   "description": "a mobile app to demonstrate basic cryptography concepts 📍 ..",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
     "start": "expo start",
-    "go": "npm run optimize && npm run build",
+    "go": "npm run build",
     "start:local": "expo start --localhost --android",
     "start:android": "expo start --android",
     "start:ios": "expo start --ios",
@@ -14,8 +14,7 @@
     "build": "npm run build",
     "build:android": "expo build:android",
     "build:ios": "expo build:ios",
-    "eject": "expo eject",
-    "optimize": "expo optimize"
+    "eject": "expo eject"
   },
   "license": "MIT",
   "dependencies": {
@@ -34,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:3imed-jaberi/cryptography-si-mobile-app-isamm.git"
+    "url": "git@github.com:3imed-jaberi/crypto-isamm.git"
   },
   "author": "Imed Jaberi",
   "devDependencies": {
@@ -47,7 +46,7 @@
     "yarn": ">= 1.16.0"
   },
   "bugs": {
-    "url": "https://github.com/3imed-jaberi/cryptography-si-mobile-app-isamm/issues"
+    "url": "https://github.com/3imed-jaberi/crypto-isamm/issues"
   },
-  "homepage": "https://github.com/3imed-jaberi/cryptography-si-mobile-app-isamm#readme"
+  "homepage": "https://github.com/3imed-jaberi/crypto-isamm#readme"
 }
